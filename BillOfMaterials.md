@@ -2,6 +2,7 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Total: |0|$0.00| |
+|1/4-20 by 2" Carriage Bolt|1|$0.23|https://www.mcmaster.com/90185a550|
+|Total: |1|$0.23| |
 
- 3xCOG MSRP: $0.00
+ 3xCOG MSRP: $0.69

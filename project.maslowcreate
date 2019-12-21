@@ -40,6 +40,19 @@
                     ]
                 },
                 {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 135,
+                    "y": 254,
+                    "uniqueID": 631748,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 0.26
+                        }
+                    ]
+                },
+                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 345,
@@ -66,10 +79,23 @@
                     ]
                 },
                 {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 325,
+                    "y": 253,
+                    "uniqueID": 223628,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": -2
+                        }
+                    ]
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 604,
-                    "y": 104,
+                    "x": 601,
+                    "y": 109,
                     "uniqueID": 156126,
                     "ioValues": [
                         {
@@ -79,9 +105,37 @@
                         {
                             "name": "3D shape 2",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": 10
                         }
                     ],
                     "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 843,
+                    "y": 141,
+                    "uniqueID": 570779,
+                    "ioValues": [],
+                    "selectedColorIndex": "10"
+                },
+                {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 1062,
+                    "y": 112,
+                    "uniqueID": 336461,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "1/4-20 by 2\" Carriage Bolt",
+                        "numberNeeded": 1,
+                        "costUSD": 0.2296,
+                        "source": "https://www.mcmaster.com/90185a550",
+                        "totalNeeded": 0
+                    }
                 },
                 {
                     "atomType": "Output",
@@ -108,6 +162,13 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 631748,
+                    "ap2ID": 223628
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 2",
                     "ap2Primary": false,
                     "ap1ID": 740109,
@@ -122,9 +183,30 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "3D shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 223628,
+                    "ap2ID": 156126
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 156126,
+                    "ap2ID": 570779
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 570779,
+                    "ap2ID": 336461
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 156126
+                    "ap1ID": 336461
                 }
             ],
             "fileTypeVersion": 1
